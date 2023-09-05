@@ -6,7 +6,7 @@ from passlib.context import CryptContext
 from datetime import datetime, timedelta
 
 ALGORITHM = "HS256"
-ACCESS_TOKEN_DURATION = 1
+ACCESS_TOKEN_DURATION = 1 #Duracion del JWT
 SECRET = "1191cc7466fd6fec3941a9c7e70cd5f94ed7c77c6a36f04c76a40699ff364ad2"
 
 router = APIRouter()
@@ -23,6 +23,8 @@ class User(BaseModel):
 class UserDB(User):
     password: str
 
+
+# en las pruebas usar como contraseña <nombre_persona>123
 users_db = {
      "john_doe": 
     {
