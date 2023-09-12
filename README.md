@@ -1,6 +1,6 @@
 # API REST FastAPI / Mongodb
 
-Descripción corta del proyecto.
+Pequeño ejemplo del uso de FastAPI y como conectarlo con una base de datos mongoDB y Mongo Atlas
 
 ## Requisitos previos
 
@@ -14,8 +14,8 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos:
 1. Clona este repositorio en tu máquina local:
 
    ```shell
-   $ git clone https://github.com/tuusuario/tuproyecto.git
-   $ cd tuproyecto 
+   $ git clone https://github.com/GeoannyCode/API_REST_fastAPI.git
+   $ cd API_REST_fastAPI
    ```
 
 2. Crea un entorno virtual (venv). Si no tienes virtualenv instalado, puedes hacerlo con:
